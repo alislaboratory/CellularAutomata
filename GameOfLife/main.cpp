@@ -12,7 +12,7 @@ int main() {
     // testing board
     Board board(sf::Vector2i(5, 5));
     board.setPosition(sf::Vector2i(0,0), true);
-    cout << board.getPosition(sf::Vector2i(0, 0));
+    cout << board.getPosition(sf::Vector2i(0, 0)).getState();;
 
     while (window.isOpen()) {
         sf::Event event;
@@ -28,4 +28,6 @@ int main() {
         // 
         window.display();
     }
+
+    return 0;
 }
