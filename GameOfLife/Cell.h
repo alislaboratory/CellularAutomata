@@ -2,7 +2,7 @@
 
 class Cell {
     public:
-        Cell(sf::Vector2i pos){position = pos; state = false;}
+        // Cell(sf::Vector2i pos){position = pos; state = false;}
         
         bool getState(){return state;}
         void setState(bool sta){state = sta;}

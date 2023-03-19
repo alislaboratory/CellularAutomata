@@ -10,10 +10,10 @@ int main() {
     shape.setFillColor(sf::Color::Green);
 
     // testing board
-    Board board(sf::Vector2i(5, 5));
-    board.setPosition(sf::Vector2i(0,0), true);
-    cout << board.getPosition(sf::Vector2i(0, 0)).getState();;
-
+    
+    // Board board(sf::Vector2i(5,5));
+    // cout << board.getState(sf::Vector2i(0,0)) << endl;
+    
     while (window.isOpen()) {
         sf::Event event;
         
